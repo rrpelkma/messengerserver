@@ -1,11 +1,11 @@
 {
-  "name": "eersteserver",
+  "name": "messengerserver",
   "version": "1.0.0",
   "description": "eerste gemaakte server",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node messengerserver.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "author": "Ramon Pelkmans",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rrpelkma/node-messengerserver/issues"
+    "url": "https://github.com/rrpelkma/messengerserver/issues"
   },
-  "homepage": "https://github.com/rrpelkma/node-messengerserver#readme"
+  "homepage": "https://github.com/rrpelkma/messengerserver#readme"
 }
