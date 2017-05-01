@@ -1,0 +1,12 @@
+var http = require('http');
+
+http.createServer(function(request, response){
+	console.log('Er was een request.');
+	response.writeHead(200, {'Content-Type': 'text/json'});
+	var json = JSON.stringify({
+		tekst: "Hoi"
+	});
+	response.end(json);
+}).listen(process.env.PORT || 4000);
+
+console.log('De server luistert op port 4000');
