@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrpelkma/node-eersteserver.git"
+    "url": "git+https://github.com/rrpelkma/messengerserver.git"
   },
   "keywords": [
     "node",
@@ -18,7 +18,7 @@
   "author": "Ramon Pelkmans",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rrpelkma/node-eersteserver/issues"
+    "url": "https://github.com/rrpelkma/node-messengerserver/issues"
   },
-  "homepage": "https://github.com/rrpelkma/node-eersteserver#readme"
+  "homepage": "https://github.com/rrpelkma/node-messengerserver#readme"
 }
