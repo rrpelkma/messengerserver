@@ -1,24 +1,27 @@
 {
-  "name": "messengerserver",
+  "name": "messenger-get-started",
   "version": "1.0.0",
-  "description": "eerste gemaakte server",
-  "main": "server.js",
+  "description": "Get started example for Messenger Platform",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node messengerserver.js"
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rrpelkma/messengerserver.git"
+    "url": "https://github.com/rrpelkma/messengerserver.git"
   },
-  "keywords": [
-    "node",
-    "server"
-  ],
-  "author": "Ramon Pelkmans",
+  "author": "Facebook",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rrpelkma/messengerserver/issues"
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
   },
-  "homepage": "https://github.com/rrpelkma/messengerserver#readme"
+  "engines": {
+    "node": "~4.1.2"
+  }
 }
