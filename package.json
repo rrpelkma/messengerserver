@@ -1,27 +1,33 @@
 {
-  "name": "messenger-get-started",
+  "name": "server",
   "version": "1.0.0",
-  "description": "Get started example for Messenger Platform",
-  "main": "app.js",
+  "description": "mijn eerste node server",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js",
-    "lint": "jshint --exclude node_modules .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/_mocha ./test/*test.js --reporter spec",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rrpelkma/messengerserver"
+    "url": "git+https://github.com/rrpelkma/node-eersteserver"
   },
-  "author": "Facebook",
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Ramon",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "config": "^1.20.4",
-    "ejs": "^2.4.2",
-    "express": "^4.13.4",
-    "request": "^2.72.0"
+  "bugs": {
+    "url": "https://github.com/rrpelkma/node-eersteserver"
   },
-  "engines": {
-    "node": "~4.1.2"
+  "homepage": "https://github.com/rrpelkma/node-eersteserver#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
   }
 }
